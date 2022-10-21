@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,600,600i,700&display=swap");
+
+body{
+  font-family: "Source Sans Pro", sans-serif;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+  outline: none;
+  /* background-image: url("DoctorStrange.jpg"); */
+}
+
+.container1{
+  background: white; 
+  min-width:100vh;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container2{
+  background: white; 
+  min-width:100vh;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-wrapper{
+  background-color: #ccc;
+  min-width: 100vh;
+  min-height: 400px;
+  padding: 30px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  box-shadow: 3px 6px 40px rgb(82, 80, 80);
+  margin-bottom:10px;
+}
+
+.grid{
+  display: grid;
+  margin-left: .5px;
+  grid-template-columns: repeat(4,1fr);
+  grid-gap: 0.2em;
+  justify-content: center;
+}
+
+.myBG{
+  height: 65vh;
+  background: url("DOCTOR.jpg");
+  background-size: cover;
+}
+
+.card-body{
+background-image: url("DOCTOR.jpg");
+}
+
+h2{
+  background-color: antiquewhite;
+}
